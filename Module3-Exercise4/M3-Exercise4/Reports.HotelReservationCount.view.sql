@@ -1,0 +1,1 @@
+CREATE VIEW Reports.HotelReservationCount ASSELECT H.HotelId, H.Name AS HotelName, H.HotelState, COUNT(R.ReservationID) AS ReservationCountFROM Vendors.Hotels HRIGHT JOIN Booking.Reservations R ON H.HotelId = R.HotelIdGROUP BY H.HotelId, H.Name, H.HotelState

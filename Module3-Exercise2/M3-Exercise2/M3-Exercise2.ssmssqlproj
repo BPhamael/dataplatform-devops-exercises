@@ -2,39 +2,64 @@
 <SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="M3-Exercise2">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
-      <Items />
+      <Items>
+        <ConnectionNode Name="VAIM1-DBT-66\BrandonVuPham:AIMCO\brandon.vu-pham">
+          <Created>2021-04-28T09:49:20.0059579-06:00</Created>
+          <Type>SQL</Type>
+          <Server>VAIM1-DBT-66\BrandonVuPham</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="Booking.Customers.tbl.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\BrandonVuPham:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VAIM1-DBT-66\BrandonVuPham</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Booking.Customers.tbl.sql</FullPath>
         </FileNode>
         <FileNode Name="Booking.Reservations.tbl.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\BrandonVuPham:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VAIM1-DBT-66\BrandonVuPham</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Booking.Reservations.tbl.sql</FullPath>
         </FileNode>
         <FileNode Name="Booking.schema.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\BrandonVuPham:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VAIM1-DBT-66\BrandonVuPham</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Booking.schema.sql</FullPath>
         </FileNode>
         <FileNode Name="build.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\BrandonVuPham:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VAIM1-DBT-66\BrandonVuPham</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>build.sql</FullPath>
         </FileNode>
         <FileNode Name="create.demo.db.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\BrandonVuPham:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VAIM1-DBT-66\BrandonVuPham</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>create.demo.db.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Marketing.EmailList.view.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\BrandonVuPham:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VAIM1-DBT-66\BrandonVuPham</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Marketing.EmailList.view.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Marketing.schema.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:VAIM1-DBT-66\BrandonVuPham:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>VAIM1-DBT-66\BrandonVuPham</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Marketing.schema.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
